@@ -92,12 +92,6 @@ Recheck that you have installed the api key on your webserver as per IndexNow in
 Check that you have a standard format xml sitemap on your site and correctly configured in the script. Note that the sitemap configuration is in an array, so the sitemap URL(s) must be enclosed in quotes, separated by commas if you have multiple sitemaps, and with the whole string enclosed in []
 
 
-## Changelog
-
-### 1.0
-
-* First version.
-
 
 
 
