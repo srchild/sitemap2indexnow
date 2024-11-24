@@ -176,10 +176,10 @@ if($urlSet<>"[']"){
 }
 DATA;
 
-if($debug==1) {
-  echo "\n\nThis is the data about to be POSTed to IndexNow\n";
-  echo $data."\n";
-}
+  if($debug==1) {
+    echo "\n\nThis is the data about to be POSTed to IndexNow\n";
+    echo $data."\n";
+  }
 
   curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
   $resp = curl_exec($curl);
@@ -190,5 +190,4 @@ if($debug==1) {
 }
 
 ?>
-
 
